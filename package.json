@@ -1,0 +1,21 @@
+{
+  "name": "gsi-dem",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gsi-dem": "build.js"
+  },
+  "scripts": {
+    "build": "node bin/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-gzip": "^1.1.2",
+    "pngjs": "^6.0.0",
+    "recursive-readdir": "^2.2.2"
+  }
+}
